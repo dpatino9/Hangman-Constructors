@@ -1,9 +1,9 @@
 
-var fruits = {
-  words: ["banana", "orange", "apple", "mango"]
+var sports = {
+  words: ["baseball", "football", "basketball", "golf", "hockey"]
 }
 
-var currentWord = fruits.words[Math.floor(Math.random()*fruits.words.length)];
+var currentWord = sports.words[Math.floor(Math.random()*sports.words.length)];
 
 
 module.exports.currentWord = currentWord;
